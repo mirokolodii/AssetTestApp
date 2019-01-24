@@ -1,0 +1,49 @@
+body {
+  padding-top: 4.5em;
+}
+
+#welcome-section {
+
+  height: 100vh;
+}
+.col {
+  padding: 5px;
+}
+
+
+a, a:hover, a:visited {
+  color: #000;
+}
+
+.fab, .fab:visited, .fab:hover {
+  padding: 20px;
+  font-size: 50px;
+  color: #FFF;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.fab:hover {
+  opacity: .7;
+  
+}
+
+.fa-github {
+    background: #000;
+}
+
+.fa-free-code-camp {
+    background: rgb(0,100,0);
+}
+
+.fa-linkedin {
+    background: #3B5998;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
